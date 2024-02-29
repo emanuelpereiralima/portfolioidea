@@ -8,40 +8,37 @@ import thumbCherryBlossoms from '../../public/images/wallpapers/cherry-blossoms/
 import thumbMachiya from '../../public/images/wallpapers/machiya/ls-03.jpg'
 
 const Wallpapers = () => (
-  <Layout title="Wallpaper Packs">
+  <Layout title="Apresentação">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
-        Wallpaper Packs
+        Videos de Apresentação
       </Heading>
 
       <Box my={4}>
-        The wallpaper packs offer a selection of carefully curated images
-        from&nbsp;
-        <Link as={NextLink} href="https://www.youtube.com/devaslife">
-          the devaslife YouTube channel
-        </Link>
-        , known for its programming content.
+        Aqui você encontra videos onde falo um pouco sobre minhas experiências descritas
+        ao longo de toda minha jornada como criador, sinta-se a vontade para escolher o video 
+        que o tempo esteja de acordo com o que podes ver no momento
       </Box>
 
       <Section>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <WorkGridItem
-            category="wallpapers"
-            id="machiya"
-            title="Machiya"
+            category="PresentationVideo"
+            id="video1min"
+            title="1 min"
             thumbnail={thumbMachiya}
           >
-            A traditional Japanese house, offering a tranquil backdrop that
-            contrasts with the technical subject matter
+            Apresentação simples rápida e direta sobre quem sou e o que faço
           </WorkGridItem>
           <WorkGridItem
-            category="wallpapers"
-            id="cherry-blossoms"
-            title="Cherry Blossoms"
+            category="PresentationVideo"
+            id="video3min"
+            title="3 min"
             thumbnail={thumbCherryBlossoms}
           >
-            A serene riverside and cherry blossoms backdrop of the programming
-            tutorial
+            Apresentação um pouco mais completa onde consigo falar mais detalhadamente
+            sobre sonhos e aspirações com as habilidades que tenho, também sobre habilidades
+            que pretendo adquirir
           </WorkGridItem>
         </SimpleGrid>
       </Section>
