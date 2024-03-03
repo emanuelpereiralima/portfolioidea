@@ -1,10 +1,10 @@
 import {
+  Box,
   Container,
   Badge,
   Link,
   List,
-  ListItem,
-  AspectRatio
+  ListItem
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
@@ -29,9 +29,6 @@ const Work = () => (
             <Link href="https://globalgamejam.org/users/manopereira" target="_blank">
             Perfl<ExternalLinkIcon mx="2px" />
             </Link>
-            <Link href="https://v3.globalgamejam.org/2014/games/beside-himself" target="_blank">
-            Primeiro Jogo<ExternalLinkIcon mx="2px" />
-            </Link>
           </span>
         </ListItem>
         <ListItem>
@@ -43,7 +40,19 @@ const Work = () => (
       </List>
 
       <WorkImage src="/images/works/globalgamejam.png" alt="Logo Global Game Jam" />
-      <WorkImage src="/images/works/besidehimself.png" alt="Beside Himself"/>
+      <Box align="center" my={6}>
+        <Link
+          className="link-besidehimself"
+          href="https://v3.globalgamejam.org/2014/games/beside-himself"
+          target="_blank"
+        >
+          <Image
+            src="/images/works/besidehimself.png"
+            className="image-besidehimself"
+            alt="Primeiro jogo feito na Global Game Jam"
+          />
+        </Link>
+      </Box>
       <WorkImage src="/images/works/dancejester.jpg" alt="Dance Jester" />
     </Container>
   </Layout>

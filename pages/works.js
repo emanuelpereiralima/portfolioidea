@@ -4,15 +4,12 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
 import thumbEcos from '../public/images/works/ecos_tumb.png'
-import thumbWalknote from '../public/images/works/walknote_eyecatch.png'
-import thumbFourPainters from '../public/images/works/the-four-painters_eyecatch.jpg'
-import thumbMenkiki from '../public/images/works/menkiki_eyecatch.png'
+import thumbskethfab from '../public/images/works/skethfablogo.jpeg'
+import thumbreformei from '../public/images/works/reformeilogo.png'
+import thumbreplit from '../public/images/works/replitlogo.png'
 import thumbGGJ from '../public/images/works/globalgamejam.png'
-import thumbModeTokyo from '../public/images/works/modetokyo_eyecatch.png'
-import thumbStyly from '../public/images/works/styly_eyecatch.png'
-import thumbPichu2 from '../public/images/works/pichu2_eyecatch.png'
-import thumbFreeDBTagger from '../public/images/works/freedbtagger_eyecatch.png'
-import thumbAmembo from '../public/images/works/amembo_eyecatch.png'
+import thumbArtes from '../public/images/works/composicoes tumb.png'
+
 
 const Works = () => (
   <Layout title="Projetos">
@@ -29,28 +26,32 @@ const Works = () => (
         </Section>
         <Section>
           <WorkGridItem
-            id="walknote"
-            title="walknote"
-            thumbnail={thumbWalknote}
+            id="skethfab"
+            title="Skethfab"
+            thumbnail={thumbskethfab}
           >
-            Music recommendation app for iOS
+            Meus projetos em 3D
           </WorkGridItem>
         </Section>
 
         <Section delay={0.1}>
           <WorkGridItem
-            id="fourpainters"
-            title="The four painters"
-            thumbnail={thumbFourPainters}
+            id="reformei"
+            title="Reformei"
+            thumbnail={thumbreformei}
           >
-            A video work generated with deep learning, imitating famous four
-            painters like Van Gogh
+            Projeto que desenvolvi na faculdade onde comecei a ter contato com os conceitos de
+            UI/UX e pude aplica-los 
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
-          <WorkGridItem id="menkiki" thumbnail={thumbMenkiki} title="Menkiki">
-            An app that suggests ramen(noodle) shops based on a given photo of
-            the ramen you want to eat
+          <WorkGridItem 
+          id="replit" 
+          thumbnail={thumbreplit} 
+          title="Replit">
+
+            Repositório onde tenho todos os meus projetos feitos em python, 
+            para todos os tipos de soluções, que podem ser testados em nuvem
           </WorkGridItem>
         </Section>
       </SimpleGrid>
@@ -81,23 +82,8 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.5}>
-          <WorkGridItem id="pichu2" thumbnail={thumbPichu2} title="Pichu*Pichu">
-            Twitter client app for iPhone Safari
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.5}>
-          <WorkGridItem
-            id="freedbtagger"
-            thumbnail={thumbFreeDBTagger}
-            title="freeDBTagger"
-          >
-            Automatic audio file tagging tool using FreeDB for Windows
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.6}>
-          <WorkGridItem id="amembo" thumbnail={thumbAmembo} title="Amembo">
-            P2P private file sharing tool with MSN Messenger integration for
-            Windows
+          <WorkGridItem id="artes" thumbnail={thumbArtes} title="Artes?">
+            Durante a pandemia me arrisquei fazendo alguns desenhos com silhuetas
           </WorkGridItem>
         </Section>
       </SimpleGrid>
