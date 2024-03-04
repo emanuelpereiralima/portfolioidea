@@ -3,7 +3,7 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
-import thumbEcos from '../public/images/works/ecos_tumb.png'
+import thumbEcos from '../public/images/works/ecoslogo.png'
 import thumbskethfab from '../public/images/works/skethfablogo.jpeg'
 import thumbreformei from '../public/images/works/reformeilogo.png'
 import thumbreplit from '../public/images/works/replitlogo.png'

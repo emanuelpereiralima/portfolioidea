@@ -1,13 +1,12 @@
-import NextLink from 'next/link'
-import { Box, Container, Heading, SimpleGrid, Link } from '@chakra-ui/react'
+import { Box, Container, Heading, SimpleGrid} from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
 import Section from '../../components/section'
 import { WorkGridItem } from '../../components/grid-item'
 
-import thumbCherryBlossoms from '../../public/images/wallpapers/cherry-blossoms/ls-13.jpg'
-import thumbMachiya from '../../public/images/wallpapers/machiya/ls-03.jpg'
+import thumbVideo1min from '../../public/images/videoapresentacaotumb.webp'
+import thumbVideo3min from '../../public/images/videoapresentacaotumb.webp'
 
-const Wallpapers = () => (
+const apresentacao = () => (
   <Layout title="Apresentação">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
@@ -23,18 +22,18 @@ const Wallpapers = () => (
       <Section>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <WorkGridItem
-            category="PresentationVideo"
+            category="apresentacao"
             id="video1min"
             title="1 min"
-            thumbnail={thumbMachiya}
+            thumbnail={thumbVideo1min}
           >
             Apresentação simples rápida e direta sobre quem sou e o que faço
           </WorkGridItem>
           <WorkGridItem
-            category="PresentationVideo"
+            category="apresentacao"
             id="video3min"
             title="3 min"
-            thumbnail={thumbCherryBlossoms}
+            thumbnail={thumbVideo3min}
           >
             Apresentação um pouco mais completa onde consigo falar mais detalhadamente
             sobre sonhos e aspirações com as habilidades que tenho, também sobre habilidades
@@ -46,5 +45,5 @@ const Wallpapers = () => (
   </Layout>
 )
 
-export default Wallpapers
+export default apresentacao
 export { getServerSideProps } from '../../components/chakra'
