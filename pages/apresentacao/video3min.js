@@ -2,7 +2,7 @@ import {
   Container,
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
-import { Title, Meta } from '../../components/apresentacao'
+import { Title } from '../../components/apresentacao'
 import P from '../../components/paragraph'
 
 const video1min = () => (
