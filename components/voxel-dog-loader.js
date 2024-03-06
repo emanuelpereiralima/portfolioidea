@@ -3,7 +3,7 @@ import { Box, Spinner } from '@chakra-ui/react'
 
 export const DogSpinner = () => (
   <Spinner
-    size="xl"
+    size="x1"
     position="absolute"
     left="50%"
     top="50%"
