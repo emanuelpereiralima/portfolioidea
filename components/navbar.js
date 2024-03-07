@@ -47,7 +47,7 @@ const Navbar = props => {
 
   return (
     <Box
-      position="fixed"
+      position="flex"
       as="nav"
       w="100%"
       bg={useColorModeValue('#ffffff40', '#20202380')}
@@ -75,7 +75,7 @@ const Navbar = props => {
           width={{ base: 'full', md: 'auto' }}
           alignItems="center"
           flexGrow={1}
-          mt={{ base: 4, md: 0 }}
+          mt={{ base: 3, md: 0 }}
         >
           <LinkItem href="/works" path={path}>
             Projetos
