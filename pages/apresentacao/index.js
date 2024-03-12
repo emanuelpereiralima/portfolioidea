@@ -46,4 +46,3 @@ const apresentacao = () => (
 )
 
 export default apresentacao
-export { getServerSideProps } from '../../components/chakra'

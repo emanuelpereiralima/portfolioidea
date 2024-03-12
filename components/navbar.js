@@ -47,7 +47,7 @@ const Navbar = props => {
 
   return (
     <Box
-      position="flex"
+      position="fixed"
       as="nav"
       w="100%"
       bg={useColorModeValue('#ffffff40', '#20202380')}
@@ -78,13 +78,10 @@ const Navbar = props => {
           mt={{ base: 4, md: 0 }}
         >
           <LinkItem href="/works" path={path}>
-            Projetos
+            Trabalhos
           </LinkItem>
           <LinkItem href="/apresentacao" path={path}>
             Apresentação
-          </LinkItem>
-          <LinkItem href="/posts" path={path}>
-            Posts
           </LinkItem>
           <LinkItem
             target="_blank"
@@ -113,16 +110,13 @@ const Navbar = props => {
               />
               <MenuList>
                 <MenuItem as={MenuLink} href="/">
-                  About
+                  Início
                 </MenuItem>
                 <MenuItem as={MenuLink} href="/works">
-                  Works
+                  Trabalhos
                 </MenuItem>
-                <MenuItem as={MenuLink} href="/wallpapers">
+                <MenuItem as={MenuLink} href="/apresentacao">
                   Apresentação
-                </MenuItem>
-                <MenuItem as={MenuLink} href="/posts">
-                  Posts
                 </MenuItem>
                 <MenuItem
                   as={Link}

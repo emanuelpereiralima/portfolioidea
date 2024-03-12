@@ -21,4 +21,3 @@ const video1min = () => (
 )
 
 export default video1min
-export { getServerSideProps } from '../../components/chakra'
