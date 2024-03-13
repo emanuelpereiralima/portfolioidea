@@ -28,7 +28,8 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Olá! Sinta-se a vontade para conhecer meus trabalhos e quem sou! qualquer dúvida só perguntar
+        Olá! Sinta-se a vontade para conhecer meus trabalhos e quem sou!
+        Qualquer dúvida só perguntar
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -71,9 +72,9 @@ const Home = () => (
         <Paragraph>
           Sou um criador de jogos, filtros, programas, videos, dentre tantas outras coisas
           e não pretendo parar apenas com o conhecimento que já tenho sobre criação, já que me
-          vejo construindo sonhos, projetos, soluções, entretenimento e trazendo a vida o que antes só habitava
-          o mundo das ideias, acredito que isso que me mova hoje a continuar aprendendo e buscando
-          cada dia me tornar um ser mais criativo e que esse conhecimento possa ser propagado por onde eu estiver.
+          vejo construindo sonhos, projetos, soluções, entretenimento e trazendo à vida o que antes só habitava
+          o mundo das ideias.Acredito que isso que me mova hoje a continuar aprendendo e buscando
+          cada dia me tornar mais criativo e que esse conhecimento possa ser propagado por onde eu passar.
           Atualizado em 29/03/2024
         </Paragraph>
         <Box align="center" my={4}>
@@ -103,11 +104,17 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2019 - 2021</BioYear>
-          Playgame - Saga Art School
+           Curso de criação de jogos(<Link
+            as={NextLink}
+            href="https://www.saga.com.br/cursos/criacao-de-jogos"
+            passHref
+            target="_blank">
+            PlayGame
+          </Link>) - Saga Art School
         </BioSection>
         <BioSection>
           <BioYear>2021 - 2023</BioYear>
-          Estágiário de Desenvolvimento de Software - Accenture
+          Estágio de Desenvolvimento de Software - Accenture
         </BioSection>
       </Section>
 
