@@ -15,13 +15,13 @@ const Main = ({ children, router }) => {
     <Box as="main" pb={8}>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Takuya's homepage" />
-        <meta name="author" content="Takuya Matsuyama" />
-        <meta name="author" content="craftzdog" />
+        <meta name="description" content="Página Inicial" />
+        <meta name="author" content="Emanuel Pereira" />
+        <meta name="author" content="manopereira" />
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-        <meta property="og:site_name" content="Takuya Matsuyama" />
-        <meta name="og:title" content="Takuya Matsuyama" />
+        <meta property="og:site_name" content="Emanuel Pereira" />
+        <meta name="og:title" content="Emanuel Pereira" />
         <meta property="og:type" content="website" />
         <title>Portfolio / Emanuel Pereira</title>
       </Head>
