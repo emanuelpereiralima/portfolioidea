@@ -75,7 +75,6 @@ const Home = () => (
           vejo construindo sonhos, projetos, soluções, entretenimento e trazendo à vida o que antes só habitava
           o mundo das ideias.Acredito que isso que me mova hoje a continuar aprendendo e buscando
           cada dia me tornar mais criativo e que esse conhecimento possa ser propagado por onde eu passar.
-          Atualizado em 29/03/2024
         </Paragraph>
         <Box align="center" my={4}>
           <Button
