@@ -3,8 +3,10 @@ import Layout from '../../components/layouts/article'
 import Section from '../../components/section'
 import { WorkGridItem } from '../../components/grid-item'
 
-import thumbVideo1min from '../../public/images/videoapresentacaotumb.webp'
-import thumbVideo3min from '../../public/images/videoapresentacaotumb.webp'
+import thumbSraFly2 from '../../public/images/jogos/srafly2tumb.jpg'
+import thumbBesideHimself from '../../public/images/jogos/bannerbesidehimself.png'
+import thumbDanceJester from '../../public/images/jogos/dancejester.jpg'
+
 
 const jogos = () => (
   <Layout title="Jogos">
@@ -19,23 +21,35 @@ const jogos = () => (
 
       <Section>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
+        <WorkGridItem
+            category="jogos"
+            id="2025Games"
+            title="Jogos de 2025"
+            thumbnail={thumbBesideHimself}
+          >
+          </WorkGridItem>
           <WorkGridItem
-            category="apresentacao"
-            id="video1min"
-            title="Sra Fly 2 test"
-            thumbnail={thumbVideo1min}
+            category="jogos"
+            id="SraFly2"
+            title="Sra Fly 2"
+            thumbnail={thumbSraFly2}
           >
             
           </WorkGridItem>
           <WorkGridItem
-            category="apresentacao"
-            id="video3min"
-            title="Beside by Himself"
-            thumbnail={thumbVideo3min}
+            category="jogos"
+            id="BesideHimself"
+            title="Beside Himself"
+            thumbnail={thumbBesideHimself}
           >
-            Apresentação um pouco mais completa onde consigo falar mais detalhadamente
-            sobre sonhos e aspirações com as habilidades que tenho, também sobre habilidades
-            que pretendo adquirir
+          </WorkGridItem>
+          <WorkGridItem
+            category="jogos"
+            id="DanceJester"
+            title="Dance Jester"
+            thumbnail={thumbDanceJester}
+          >
+            
           </WorkGridItem>
         </SimpleGrid>
       </Section>
