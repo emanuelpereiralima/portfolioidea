@@ -123,13 +123,13 @@ const Home = () => (
         </Heading>
         <List>
           <ListItem>
-            <Link href="https://sketchfab.com/manopereira" target="_blank">
+            <Link href="https://www.fab.com/sellers/Emanuel%20Pereira" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoDropbox />}
               >
-                Sketchfab
+                Fab
               </Button>
             </Link>
           </ListItem>
