@@ -1,6 +1,6 @@
 import { Box, Text } from '@chakra-ui/react'
 
-const fevereiro = () => {
+const febuary = () => {
   return (
     <Box w="100%" h="100%" position="relative" p={8}>
       <Text
@@ -20,4 +20,4 @@ const fevereiro = () => {
   )
 }
 
-export default fevereiro
+export default febuary
