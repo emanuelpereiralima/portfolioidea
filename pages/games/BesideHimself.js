@@ -3,7 +3,7 @@ import {
   Link
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
-import { Title, Meta, WorkImage } from '../../components/jogos'
+import { Title, Meta, WorkImage } from '../../components/games'
 import P from '../../components/paragraph'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 
@@ -22,11 +22,11 @@ const BesideHimself = () => (
           <Link href="https://v3.globalgamejam.org/2014/games/beside-himself">
             Jogue agora <ExternalLinkIcon mx="2px" />
           </Link>
-      <WorkImage src="/images/jogos/besidehimselfgameplay.png" alt="Beside Himself Gameplay" />
+      <WorkImage src="/images/games/besidehimselfgameplay.png" alt="Beside Himself Gameplay" />
       <P>
       Equipe
       </P>
-      <WorkImage src="/images/jogos/equipebesidehimself.jpg" alt="Beside Himself Team" />
+      <WorkImage src="/images/games/equipebesidehimself.jpg" alt="Beside Himself Team" />
     </Container>
   </Layout>
 )

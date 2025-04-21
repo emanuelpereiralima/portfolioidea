@@ -3,10 +3,10 @@ import Layout from '../../components/layouts/article'
 import Section from '../../components/section'
 import { WorkGridItem } from '../../components/grid-item'
 
-import thumbVideo1min from '../../public/images/videoapresentacaotumb.webp'
-import thumbVideo3min from '../../public/images/videoapresentacaotumb.webp'
+import thumbVideo1min from '../../public/images/videopresentationtumb.webp'
+import thumbVideo3min from '../../public/images/videopresentationtumb.webp'
 
-const apresentacao = () => (
+const presentation = () => (
   <Layout title="Apresentação">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
@@ -22,7 +22,7 @@ const apresentacao = () => (
       <Section>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <WorkGridItem
-            category="apresentacao"
+            category="presentation"
             id="video1min"
             title="1 min"
             thumbnail={thumbVideo1min}
@@ -30,7 +30,7 @@ const apresentacao = () => (
             Apresentação simples rápida e direta sobre quem sou e o que faço
           </WorkGridItem>
           <WorkGridItem
-            category="apresentacao"
+            category="presentation"
             id="video3min"
             title="3 min"
             thumbnail={thumbVideo3min}
@@ -45,4 +45,4 @@ const apresentacao = () => (
   </Layout>
 )
 
-export default apresentacao
+export default presentation

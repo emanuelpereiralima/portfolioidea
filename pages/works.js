@@ -7,7 +7,6 @@ import thumbEcos from '../public/images/works/ecoslogo.png'
 import thumbskethfab from '../public/images/works/skethfablogo.jpeg'
 import thumbreformei from '../public/images/works/reformeilogo.png'
 import thumbreplit from '../public/images/works/replitlogo.png'
-import thumbGGJ from '../public/images/works/globalgamejam.png'
 import thumbArtes from '../public/images/works/composicoes tumb.png'
 
 
@@ -15,7 +14,7 @@ const Works = () => (
   <Layout title="Projetos">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
-        Projetos
+        Trabalhos
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
@@ -54,34 +53,7 @@ const Works = () => (
             para todos os tipos de soluções, que podem ser testados em nuvem
           </WorkGridItem>
         </Section>
-      </SimpleGrid>
-
-      <Section delay={0.2}>
-        <Divider my={6} />
-
-        <Heading as="h3" fontSize={20} mb={4}>
-          Colaborações
-        </Heading>
-      </Section>
-
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        <Section delay={0.3}>
-          <WorkGridItem id="GGJ" thumbnail={thumbGGJ} title="Global Game Jam">
-            Minhas Participações em projetos na Global Game Jam
-          </WorkGridItem>
-        </Section>
-      </SimpleGrid>
-
-      <Section delay={0.4}>
-        <Divider my={6} />
-
-        <Heading as="h3" fontSize={20} mb={4}>
-          Old works
-        </Heading>
-      </Section>
-
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        <Section delay={0.5}>
+        <Section delay={0.1}>
           <WorkGridItem id="artes" thumbnail={thumbArtes} title="Artes?">
             Durante a pandemia me arrisquei fazendo alguns desenhos com silhuetas
           </WorkGridItem>

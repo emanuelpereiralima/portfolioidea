@@ -70,7 +70,7 @@ const Home = () => (
           Sobre mim
         </Heading>
         <Paragraph>
-          Sou um criador de jogos, filtros, programas, videos, dentre tantas outras coisas
+          Sou um criador de games, filtros, programas, videos, dentre tantas outras coisas
           e não pretendo parar apenas com o conhecimento que já tenho sobre criação, já que me
           vejo construindo sonhos, projetos, soluções, entretenimento e trazendo à vida o que antes só habitava
           o mundo das ideias.Acredito que isso que me mova hoje a continuar aprendendo e buscando
@@ -95,7 +95,7 @@ const Home = () => (
         </Heading>
         <BioSection>
           <BioYear>2012 - 2014</BioYear>
-          Técnico de Programação de jogos digitais -  ETECD
+          Técnico de Programação de games digitais -  ETECD
         </BioSection>
         <BioSection>
           <BioYear>2016 - 2025</BioYear>
@@ -103,9 +103,9 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2019 - 2021</BioYear>
-           Curso de criação de jogos(<Link
+           Curso de criação de games(<Link
             as={NextLink}
-            href="https://www.saga.com.br/cursos/criacao-de-jogos"
+            href="https://www.saga.com.br/cursos/criacao-de-games"
             passHref
             target="_blank">
             PlayGame
