@@ -3,7 +3,7 @@ import {
     Link
   } from '@chakra-ui/react'
   import Layout from '../../components/layouts/article'
-  import { Title, Meta} from '../../components/games'
+  import { Title} from '../../components/games'
   import P from '../../components/paragraph'
   import { ExternalLinkIcon } from '@chakra-ui/icons'
 

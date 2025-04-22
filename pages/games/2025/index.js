@@ -16,6 +16,11 @@ const months = [
   "july", "august", "september", "october", "november", "december"
 ]
 
+const meses = [
+  "janeiro", "fevereiro", "março", "abril", "maio", "junho",
+  "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"
+]
+
 const index = () => {
   const [currentIndex, setCurrentIndex] = useState(() => {
     const now = new Date()
@@ -117,7 +122,7 @@ const index = () => {
                     fontFamily="monospace"
                     textShadow="0 0 8px rgba(255,255,0,0.3)"
                   >
-                    {months[currentIndex].toUpperCase()}
+                    {meses[currentIndex].toUpperCase()}
                   </Text>
                 </Box>
 
