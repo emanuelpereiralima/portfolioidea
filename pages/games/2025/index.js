@@ -21,15 +21,15 @@ const meses = [
   "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"
 ]
 
-const index = () => {
+const Y2025 = () => {
   const [currentIndex, setCurrentIndex] = useState(() => {
     const now = new Date()
     return now.getMonth()
   })
-  const [isChanging, setIsChanging] = useState(false)
+  const [,setIsChanging] = useState(false)
   const [CurrentComponent, setCurrentComponent] = useState(null)
   const [isLoading, setIsLoading] = useState(false)
-
+  
   const loadComponent = useCallback(async (index) => {
     setIsLoading(true)
     try {
@@ -197,4 +197,4 @@ const ChannelButton = ({ direction, onClick }) => (
   </Button>
 )
 
-export default index
+export default Y2025
