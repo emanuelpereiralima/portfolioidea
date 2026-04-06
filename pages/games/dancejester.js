@@ -8,8 +8,8 @@ import {
   import { ExternalLinkIcon } from '@chakra-ui/icons'
 
   
-  const dancejester = () => (
-    <Layout title="games 2025">
+  const DanceJester = () => (
+    <Layout title="Dancing Jester">
       <Container>
       </Container>
       <Container>
@@ -31,4 +31,4 @@ import {
     
   )
   
-  export default dancejester
+  export default DanceJester

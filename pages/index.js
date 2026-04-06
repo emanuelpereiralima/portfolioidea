@@ -35,7 +35,7 @@ const Home = () => (
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Emanuel Pereira
+            Mano Pereira
           </Heading>
           <p> Criador ( Artista / Designer / Desenvolvedor )</p>
         </Box>
@@ -123,7 +123,7 @@ const Home = () => (
         </Heading>
         <List>
           <ListItem>
-            <Link href="https://www.fab.com/sellers/Emanuel%20Pereira" target="_blank">
+            <Link href="https://www.fab.com/sellers/Mano%20Pereira" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
@@ -134,7 +134,7 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://www.linkedin.com/in/emanuel-pereira/" target="_blank">
+            <Link href="https://www.linkedin.com/in/Mano-pereira/" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
@@ -167,7 +167,7 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://github.com/emanuelpereiralima" target="_blank">
+            <Link href="https://github.com/Manopereiralima" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"

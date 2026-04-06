@@ -24,13 +24,13 @@ const games = () => (
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
         <WorkGridItem
             category="games"
-            id="2025"
-            title="games de 2025"
+            id="ToBem"
+            title="To Bem"
             thumbnail={thumb2025games}
           ></WorkGridItem>
           <WorkGridItem
             category="games"
-            id="dancejester"
+            id="DanceJester"
             title="Dancing Jester"
             thumbnail={thumbDanceJester}
           ></WorkGridItem>
