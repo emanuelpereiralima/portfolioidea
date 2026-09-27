@@ -2,6 +2,9 @@
   "name": "craftzdog-homepage",
   "version": "1.0.0",
   "description": "Takuya's website",
+  "engines": {
+    "node": ">=22.13.0 <23"
+  },
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
     "build": "next build",
